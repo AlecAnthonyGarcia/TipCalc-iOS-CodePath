@@ -14,6 +14,7 @@
 		70E28E221D95877D00B0E98A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70E28E201D95877D00B0E98A /* LaunchScreen.storyboard */; };
 		70E28E2D1D95877D00B0E98A /* TipCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E28E2C1D95877D00B0E98A /* TipCalcTests.swift */; };
 		70E28E381D95877D00B0E98A /* TipCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E28E371D95877D00B0E98A /* TipCalcUITests.swift */; };
+		70F57E2E1D95C73200A18FEE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F57E2D1D95C73200A18FEE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		70E28E331D95877D00B0E98A /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E28E371D95877D00B0E98A /* TipCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcUITests.swift; sourceTree = "<group>"; };
 		70E28E391D95877D00B0E98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F57E2D1D95C73200A18FEE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				70E28E171D95877C00B0E98A /* AppDelegate.swift */,
 				70E28E191D95877C00B0E98A /* ViewController.swift */,
 				70E28E1B1D95877D00B0E98A /* Main.storyboard */,
+				70F57E2D1D95C73200A18FEE /* SettingsViewController.swift */,
 				70E28E1E1D95877D00B0E98A /* Assets.xcassets */,
 				70E28E201D95877D00B0E98A /* LaunchScreen.storyboard */,
 				70E28E231D95877D00B0E98A /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				70E28E1A1D95877C00B0E98A /* ViewController.swift in Sources */,
 				70E28E181D95877C00B0E98A /* AppDelegate.swift in Sources */,
+				70F57E2E1D95C73200A18FEE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
