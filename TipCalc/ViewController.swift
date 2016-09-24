@@ -17,7 +17,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+   }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        initializeTipControl()
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,6 +43,12 @@ class ViewController: UIViewController {
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+    }
+    
+    func initializeTipControl() {
+        let defaults = UserDefaults.standard
+        let tipPercentageIndex = defaults.value(forKey: "default_tip_percentage_index")
+        tipControl.selectedSegmentIndex = tipPercentageIndex as! Int? ?? 0
     }
 }
 
