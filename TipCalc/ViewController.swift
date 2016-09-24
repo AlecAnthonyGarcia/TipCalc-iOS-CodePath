@@ -49,6 +49,7 @@ class ViewController: UIViewController {
         let defaults = UserDefaults.standard
         let tipPercentageIndex = defaults.value(forKey: "default_tip_percentage_index")
         tipControl.selectedSegmentIndex = tipPercentageIndex as! Int? ?? 0
+        calculateTip(self)
     }
 }
 
